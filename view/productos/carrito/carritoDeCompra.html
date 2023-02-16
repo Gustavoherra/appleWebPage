@@ -1,61 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../../css/style.css">
     <title>APPLE</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../../bootstrap/css/bootstrap.min.css">
+    <!-- ./ Bootstrap -->
+    <!--Font awsonme-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--./ Font awsonme-->
+  
+    <link rel="stylesheet" href="../../../css/style.css">
 </head>
-
 <body>
     <!--NAVBAR-->
     <details>
-        <summary></summary>
-        <nav class="menu">
-            <a href="../../productos/productIphone.html">Iphones</a>
-            <a href="../../productos/productIpad.html">Ipad</a>
-            <a href="../../productos/productMacbook.html">Macbook</a>
-            <a href="../../../index.html">Inicio</a>
-        </nav>
-    </details>
-    <!--NAVBAR-->
+      <summary></summary>
+      <nav class="menu">
+          <a href="../../../view/productos/productIphone.html">Iphones</a>
+          <a href="../../../view/productos/productIpad.html">Ipad</a>
+          <a href="../../../view/productos/productMacbook.html">Macbook</a>
+          <a href="../../../index.html">Inicio</a>
+      </nav>
+  </details>
+    <!-- ./NAVBAR-->
     <!--DATOS Y METODO DE PAGO-->
-
     <div class="modern-form" style="margin-top: 150px;">
-        <h3 style="color: white;">Datos para compra:</h3>
-      
-      <fieldset class='float-label-field'>
-        <label for="txtName">Nombre</label>
-        <input id="txtName" type='text'>
-      </fieldset>
-      
-      <fieldset class='float-label-field'>
-        <label for="txtEmail" >Email</label>
-        <input id="txtEmail" type='text'>
-      </fieldset>
-      
-      <fieldset class='float-label-field'>
-        <label for="numberTelefono">Telefono</label>
-        <input id="numberTelefono" type='number'>
-      </fieldset>
-      
-      <fieldset class='float-label-field'>
-        <label for="nmrTarjeta">Numero de tarjeta</label>
-        <input id="nmrTarjeta" type='number'>
-      </fieldset>
-
-      <fieldset class='center' style="border: 0; margin-top: 80px;">
-        <button class="buttonClass"><a href="../carrito/carritoDeCompra.html">Comprar</a></button>
-      </fieldset>
-
+        <h2 class="text-white">DATOS PARA COMPRA</h3>
+        <hr class="bg-white">
+        <!--DATOS DE COMPRA-->
+        <div class="container mt-3">
+          <!--MAIL-->
+          <label for="exampleFormControlInput1" class="form-label text-white mt-3">Email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <!-- ./MAIL-->
+          <!--CONTRASEÑA-->
+          <label for="inputPassword" class="form-label text-white mt-3">Contraseña</label>
+          <input type="password" class="form-control" id="inputPassword">
+          <!-- ./CONTRASEÑA-->
+           <!--CELULAR-->
+          <label for="exampleFormControlInput1" class="form-label text-white mt-3">Celular</label>
+          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+00 00 0000-0000">
+           <!-- ./CELULAR-->
+           <div class="row mt-3">
+           <!--DEBITO-->
+          <div class="form-check col-md-6">
+            <input class="form-check-input ml-1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label text-white ml-4" for="flexRadioDefault1">
+              Debito
+            </label>
+          </div>
+            <!-- ./DEBITO-->
+            <!--CREDITO-->
+          <div class="form-check col-md-6">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label text-white" for="flexRadioDefault2">
+            Credito
+            </label>
+          </div>
+          <!-- ./CREDITO-->
+        </div>
+          <!--NUMERO DE TARJETA-->
+          <label for="exampleFormControlInput1" class="form-label text-white mt-3">Numero de tarjeta</label>
+          <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="0000 0000 0000 0000">
+         </div>
+          <!-- ./NUMERO DE TARJETA-->
+          <hr class="bg-white mt-5">
+          <!--BUTON DE COMPRA-->
+          <button class="btn btn-success col-md-12 mt-2" type="button">Comprar</button>
+          <!-- ./BUTON DE COMPRA-->
+        <!-- ./DATOS DE COMPRA-->
       </div>
     <!--./ DATOS Y METODO DE PAGO-->
-
-  
-
-</html>
+    <!--Footer-->
+    <footer class="text-center text-white bg-dark" style="margin-top: 120px;">
+      <div class="container p-4">
+          <!-- Video iphone -->
+          <section class="">
+          <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+              <div class="ratio ratio-16x9">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FT3ODSg1GFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              </div>
+          </div>
+          </section>
+          <!-- ./Video iphone -->
+          <section class="m">
+              <!-- Facebook -->
+              <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+        
+              <!-- Google -->
+              <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                  <i class="fa fa-google" aria-hidden="true"></i>
+              </a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+        
+            </section>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          <label>© 2023 Copyright: Gustavo Herrrera</label>
+      </div>
+      <!-- ./Copyright -->
+  </footer>
 </body>
-
 </html>

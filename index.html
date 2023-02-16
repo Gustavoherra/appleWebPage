@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- ./ Bootstrap -->
+    <!--Font awsonme-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--./ Font awsonme-->
     <link rel="stylesheet" href="css/style.css">
     <title>APPLE</title>
 </head>
@@ -26,19 +32,79 @@
     </div>
     <!-- ./TITULO-->
     <!--CATALAGO-->
-    <div class="center margen">
-        <a href="./view/productos/productIphone.html"><img src="./img/iPhone-14-PNG-File.png" class="center imagenCatalogoMain"></a>
-        <a href="./view/productos/productMacbook.html"><img src="./img/macboook.png" class="center imagenCatalogoMain distanciaImagen"></a>
-        <a href="./view/productos/productIpad.html"> <img src="./img/ipadpro.png" class="center imagenCatalogoMain"></a>
-       
-    </div>
-    <div class="center">
-        <label>Iphone 14</label>
-        <label class="distancia">Macbook</label>
-        <label>Ipadpro</label>
-    </div>
-    <!-- ./CATALAGO-->
 
+    <div class="container center mt-5">
+        <!--IMAGENES CATALO-->
+        <div class="row">
+          <div class="col">
+            <a href="./view/productos/productIphone.html"><img src="./img/iPhone-14-PNG-File.png" class="imagenCatalogoMain"></a>
+         </div>
+          <div class="col">
+            <a href="./view/productos/productMacbook.html"><img src="./img/macboook.png" class=" imagenCatalogoMain"></a>
+          </div>
+          <div class="col">
+            <a href="./view/productos/productIpad.html"> <img src="./img/ipadpro.png" class=" imagenCatalogoMain"></a>
+          </div>
+        </div>
+        <!-- ./IMAGENES CATALO-->
+        <!--LABELS CATALOGO-->
+        <div class="row mt-4">
+            <div class="col">
+                <label>Iphone 14</label>
+            </div>
+            <div class="col">
+                <label>Macbook</label>
+            </div>
+            <div class="col">
+                <label>Ipadpro</label>
+            </div>
+        </div>
+    </div>
+        <!--./LABELS CATALOGO-->
+    <!--Footer-->
+    <footer class="text-center text-white bg-dark" style="margin-top: 120px;">
+        <div class="container p-4">
+            <!-- Video iphone -->
+            <section class="">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FT3ODSg1GFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+            </section>
+            <!-- ./Video iphone -->
+            <section class="m">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+          
+                <!-- Twitter -->
+                <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+          
+                <!-- Google -->
+                <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                </a>
+          
+                <!-- Instagram -->
+                <a class="btn btn-outline-light border-0 btn-floating m-1" href="#!" role="button">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+          
+              </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <label>© 2023 Copyright: Gustavo Herrrera</label>
+        </div>
+        <!-- ./Copyright -->
+    </footer>
+    <!-- ./Footer-->
 </html>
 </body>
 

@@ -18,17 +18,7 @@ body {
   height: 25rem;
   width: 20rem;
 }
-.margen {
-    margin-top: 5rem;
-}
-.distancia{
-    margin-left: 20rem;
-    margin-right: 17em;
-}
-.distanciaImagen{
-    margin-left: 5rem;
-    margin-right: 5em;
-}
+
 /*NAVBAR*/
 details {
   margin: 40px;
@@ -87,6 +77,7 @@ details[open] summary::after {
   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
   margin-top: 8px;
   display: flex;
+  position: absolute;
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
@@ -136,28 +127,6 @@ details[open]::before {
     opacity: 0;
   }
 }
-.buttonClass {
-  font-size:15px;
-  font-family:Arial;
-  width:140px;
-  height:50px;
-  border-width:1px;
-  color:#666666;
-  border-color:#dcdcdc;
-  font-weight:bold;
-  border-top-left-radius:6px;
-  border-top-right-radius:6px;
-  border-bottom-left-radius:6px;
-  border-bottom-right-radius:6px;
-  box-shadow:inset 0px 1px 0px 0px #ffffff;
-  text-shadow:inset 0px 1px 0px #ffffff;
-  background:linear-gradient(#ffffff, #f6f6f6);
-}
-
-.buttonClass:hover {
-  background: linear-gradient(#f6f6f6, #ffffff);
-}
-
 .modern-form {
   width: 500px;
   margin: 30px auto;
@@ -166,7 +135,7 @@ details[open]::before {
   padding: 20px 10px;
 }
 
-.modern-form h3 {
+.modern-form h2 {
   text-align: center;
 }
 
