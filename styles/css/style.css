@@ -29,6 +29,7 @@ summary {
   padding: 12px 10px;
   width: 23px;
   height: 17px;
+  
   background-color: var(--primColor);
   border: 2px solid var(--secoColor);
   border-radius: var(--cornerRad);
@@ -72,9 +73,8 @@ details[open] summary::after {
 .menu {
   height: 0;
   width: fit-content;
-  border-radius: var(--cornerRad);
-  background-color: var(--primColor);
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1px;
+  background-color: transparent; !important;
   margin-top: 8px;
   display: flex;
   position: absolute;
@@ -86,8 +86,8 @@ details[open] summary::after {
 .menu a {
   padding: 12px 24px;
   margin: 0 16px;
-  color: var(--secoColor);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  color: white;
+  border-bottom: 0;
   text-decoration: none;
   text-align: center;
   transition: filter 200ms linear 0s;
@@ -102,7 +102,6 @@ details[open] summary::after {
   filter: brightness(200%);
 }
 details::before {
-  color: var(--secoColor);
   position: absolute;
   margin-left: 80px;
   padding: 10px 10px;
