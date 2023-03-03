@@ -1,8 +1,7 @@
 {
-  "name": "package",
+  "name": "apple-web-page",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "app web hecho para las clases virtuales de desarollo de sistemas",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass styles/sass/main.scss styles/css/style.css -w"
@@ -11,13 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/Gustavoherra/appleWebPage.git"
   },
-  "author": "gustavo",
+  "author": "gustavo herrera",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Gustavoherra/appleWebPage/issues"
   },
   "homepage": "https://github.com/Gustavoherra/appleWebPage#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "nodemon": "^2.0.21",
     "sass": "^1.58.3"
   }
 }
